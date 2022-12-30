@@ -1,0 +1,559 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1672441632105537, "dur": 5867543, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1672441632107091, "dur": 23838, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1672441632131101, "dur": 76075, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1672441632207202, "dur": 329750, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1672441632536953, "dur": 5425404, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1672441637962378, "dur": 10702, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1672441657344128, "dur": 980453, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1672441657344363, "dur": 16178, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1672441657360546, "dur": 140685, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1672441657501234, "dur": 293070, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1672441657794306, "dur": 521697, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1672441658316004, "dur": 8563, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1672441658325229, "dur": 57, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1672441657648168, "dur": 129373, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1672441657649289, "dur": 57598, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1672441657757711, "dur": 5702, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1672441657763416, "dur": 14118, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1672441657764152, "dur": 12344, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1672441657782176, "dur": 1310, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1672441657781338, "dur": 2175, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1672441658330888, "dur": 3190, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1672441657835611, "dur":1097, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672441657836713, "dur":57, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1672441657836785, "dur":26, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1672441657836813, "dur":683, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1672441657837531, "dur":511, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672441657838042, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672441658291349, "dur":205, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672441658291554, "dur":256, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672441658291810, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672441658291814, "dur":24, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672441658291838, "dur":57, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672441658291895, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672441658291905, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672441658291908, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672441658291915, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672441658291917, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672441658291924, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672441658291926, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672441658291932, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672441658291934, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672441658291940, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672441658291942, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672441658291948, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672441658291950, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672441658291956, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672441658291958, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672441658291965, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672441658291967, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672441658291973, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672441658291975, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672441658291982, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672441658291995, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672441658292032, "dur":1987, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1672441657837590, "dur":503, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672441657838096, "dur":1818, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672441657839961, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1672441657839963, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672441657840079, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1672441657840292, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672441657846134, "dur":1139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1672441657847274, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672441657847290, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672441657847294, "dur":3297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672441657850609, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672441657850695, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672441657850707, "dur":1826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672441657852544, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672441657852558, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672441657852588, "dur":2847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672441657855451, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672441657855472, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672441657855512, "dur":65781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672441657921302, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672441657921312, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672441657921316, "dur":1005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672441657922332, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672441657922373, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672441657922379, "dur":32509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672441657954897, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672441657954907, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672441657954911, "dur":190459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672441658145381, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":1, "ts":1672441658145407, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672441658145412, "dur":1932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":1, "ts":1672441658147355, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1672441658147390, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672441658147394, "dur":1467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1672441658148869, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1672441658148880, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672441658148884, "dur":733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1672441658149625, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1672441658149733, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672441658149737, "dur":759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1672441658150504, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/level1.resS" }}
+,{ "pid":12345, "tid":1, "ts":1672441658150514, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672441658150517, "dur":868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/level1.resS" }}
+,{ "pid":12345, "tid":1, "ts":1672441658151393, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1672441658151402, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672441658151405, "dur":730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1672441658152146, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1672441658152157, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672441658152161, "dur":767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1672441658152936, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1672441658153038, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672441658153041, "dur":669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1672441658153717, "dur":137616, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672441657837994, "dur":239, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672441657838233, "dur":1736, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672441657839970, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1672441657840252, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672441657845163, "dur":1813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1672441657846988, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672441657847003, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672441657847007, "dur":3257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672441657850285, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672441657850327, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672441657850334, "dur":1669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672441657852023, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672441657852041, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672441657852048, "dur":1796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672441657853864, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672441657853887, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672441657853892, "dur":46325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672441657900233, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672441657900265, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672441657900269, "dur":1068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672441657901345, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672441657901356, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672441657901360, "dur":11196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672441657912565, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672441657912575, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672441657912580, "dur":1000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672441657913590, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672441657913601, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672441657913604, "dur":8525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672441657922139, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672441657922150, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672441657922154, "dur":1032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672441657923195, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672441657923207, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672441657923213, "dur":8197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672441657931419, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672441657931431, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672441657931454, "dur":66342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672441657997820, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672441657997836, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672441657997840, "dur":44877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672441658042726, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672441658042736, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672441658042740, "dur":122984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672441658165734, "dur":125666, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672441657837726, "dur":408, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672441657838134, "dur":1825, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672441657839962, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1672441657840158, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672441657842361, "dur":1295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1672441657843666, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1672441657843678, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672441657843683, "dur":2976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1672441657846673, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule.exe" }}
+,{ "pid":12345, "tid":3, "ts":1672441657846696, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672441657846702, "dur":5672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule.exe" }}
+,{ "pid":12345, "tid":3, "ts":1672441657852392, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672441657852410, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672441657852415, "dur":2925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672441657855359, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672441657855400, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672441657855409, "dur":2307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672441657857758, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672441657857788, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672441657857803, "dur":41386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672441657899200, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672441657899211, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672441657899216, "dur":1007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672441657900235, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672441657900249, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672441657900252, "dur":1038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672441657901298, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672441657901310, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672441657901335, "dur":968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672441657902311, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672441657902320, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672441657902323, "dur":310620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672441658212957, "dur":78440, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672441657837864, "dur":315, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672441657838179, "dur":1743, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672441657839961, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1672441657840245, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672441657844209, "dur":2068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1672441657846294, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1672441657846321, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672441657846327, "dur":5843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1672441657852192, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672441657852214, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672441657852220, "dur":2594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672441657854829, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672441657854849, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672441657854857, "dur":33746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672441657888612, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672441657888623, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672441657888627, "dur":976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672441657889612, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672441657889625, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672441657889630, "dur":24908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672441657914552, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672441657914562, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672441657914566, "dur":13616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672441657928191, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672441657928324, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672441657928328, "dur":993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672441657929330, "dur":97318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672441658026652, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672441658026659, "dur":1596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672441658028265, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672441658028275, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672441658028279, "dur":985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672441658029272, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672441658029282, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672441658029286, "dur":11806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672441658041103, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672441658041121, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672441658041126, "dur":53361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672441658094499, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672441658094510, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672441658094514, "dur":78615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672441658173141, "dur":118258, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1672441657838130, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1672441657838130, "dur":1793, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1672441657839961, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1672441657840107, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1672441657841888, "dur":1756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1672441657843659, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1672441657843685, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1672441657843691, "dur":3014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1672441657846720, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1672441657846737, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1672441657846754, "dur":444539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1672441658291306, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":5, "ts":1672441658291308, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1672441657838285, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1672441657838285, "dur":1709, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1672441657839994, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1672441657840061, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1672441657840637, "dur":2821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1672441657843470, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1672441657843483, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1672441657843515, "dur":2012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1672441657845537, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1672441657845548, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1672441657845552, "dur":1767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1672441657847336, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1672441657847354, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1672441657847360, "dur":90682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1672441657938052, "dur":184158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1672441658122214, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1672441658122220, "dur":1538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1672441658123770, "dur":84211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1672441658207985, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1672441658207991, "dur":1433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1672441658209436, "dur":82078, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1672441657838454, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1672441657838455, "dur":1525, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1672441657839982, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1672441657840337, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1672441657847703, "dur":754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1672441657848467, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1672441657848480, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1672441657848483, "dur":2417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1672441657850918, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1672441657850944, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1672441657850950, "dur":1903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1672441657852863, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1672441657852882, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1672441657852885, "dur":2665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1672441657855565, "dur":20599, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1672441657876167, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1672441657876172, "dur":1309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1672441657877499, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1672441657877552, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1672441657877559, "dur":1013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1672441657878582, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1672441657878592, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1672441657878597, "dur":973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1672441657879578, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1672441657879591, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1672441657879601, "dur":1090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1672441657880700, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1672441657880727, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1672441657880732, "dur":920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1672441657881659, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1672441657881675, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1672441657881680, "dur":902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1672441657882589, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1672441657882598, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1672441657882602, "dur":889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1672441657883499, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1672441657883512, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1672441657883516, "dur":951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1672441657884477, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1672441657884491, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1672441657884495, "dur":886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1672441657885389, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1672441657885398, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1672441657885402, "dur":31025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1672441657916436, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1672441657916451, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1672441657916455, "dur":204820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1672441658121286, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1672441658121298, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1672441658121303, "dur":73963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1672441658195278, "dur":96057, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1672441657838630, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1672441657838631, "dur":1333, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1672441657839968, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1672441657840298, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1672441657847062, "dur":916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1672441657848000, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1672441657848017, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1672441657848021, "dur":78674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1672441657926717, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1672441657926728, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1672441657926733, "dur":1019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1672441657927760, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1672441657927770, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1672441657927774, "dur":1001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1672441657928783, "dur":53629, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1672441657982417, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1672441657982451, "dur":1635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1672441657984106, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1672441657984122, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1672441657984129, "dur":90733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1672441658074873, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1672441658074884, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1672441658074889, "dur":1159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1672441658076056, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1672441658076067, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1672441658076071, "dur":85463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1672441658161553, "dur":129845, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1672441657838673, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1672441657838674, "dur":1293, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1672441657839969, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1672441657840198, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1672441657843021, "dur":1245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1672441657844281, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":9, "ts":1672441657844301, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1672441657844307, "dur":2457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":9, "ts":1672441657846784, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1672441657846818, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1672441657846836, "dur":25304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1672441657872153, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1672441657872168, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1672441657872174, "dur":15110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1672441657887293, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1672441657887320, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1672441657887324, "dur":61859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1672441657949199, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":9, "ts":1672441657949300, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1672441657949305, "dur":919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":9, "ts":1672441657950236, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1672441657950341, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1672441657950345, "dur":963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1672441657951318, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1672441657951443, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1672441657951481, "dur":1102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1672441657952592, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":9, "ts":1672441657952603, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1672441657952607, "dur":181759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":9, "ts":1672441658134392, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":9, "ts":1672441658134512, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1672441658134518, "dur":1066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":9, "ts":1672441658135596, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":9, "ts":1672441658135692, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1672441658135708, "dur":660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":9, "ts":1672441658136375, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":9, "ts":1672441658136399, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1672441658136402, "dur":879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":9, "ts":1672441658137288, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":9, "ts":1672441658137298, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1672441658137301, "dur":2831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":9, "ts":1672441658140164, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1672441658140176, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1672441658140182, "dur":5974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1672441658146167, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":9, "ts":1672441658146177, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1672441658146181, "dur":4119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":9, "ts":1672441658150308, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":9, "ts":1672441658150420, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1672441658150425, "dur":686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":9, "ts":1672441658151119, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/level1" }}
+,{ "pid":12345, "tid":9, "ts":1672441658151128, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1672441658151131, "dur":815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/level1" }}
+,{ "pid":12345, "tid":9, "ts":1672441658151955, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/level0" }}
+,{ "pid":12345, "tid":9, "ts":1672441658151964, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1672441658151985, "dur":749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/level0" }}
+,{ "pid":12345, "tid":9, "ts":1672441658152743, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":9, "ts":1672441658152752, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1672441658152755, "dur":721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":9, "ts":1672441658153483, "dur":137864, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1672441657838834, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1672441657838834, "dur":1140, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1672441657839974, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1672441657840065, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1672441657841446, "dur":2016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1672441657843472, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1672441657843487, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1672441657843518, "dur":2156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1672441657845683, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":10, "ts":1672441657845711, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1672441657845734, "dur":9827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":10, "ts":1672441657855585, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1672441657855625, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1672441657855634, "dur":2489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1672441657858144, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1672441657858170, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1672441657858179, "dur":342866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1672441658201060, "dur":90339, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1672441657838956, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1672441657838957, "dur":1001, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1672441657839961, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1672441657840063, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1672441657841050, "dur":2532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1672441657843598, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1672441657843645, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1672441657843656, "dur":2540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1672441657846217, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":11, "ts":1672441657846238, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1672441657846242, "dur":23804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":11, "ts":1672441657870059, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1672441657870073, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1672441657870078, "dur":1048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1672441657871134, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1672441657871194, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1672441657871199, "dur":1004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1672441657872212, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1672441657872222, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1672441657872226, "dur":71568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1672441657943810, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":11, "ts":1672441657943922, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1672441657943928, "dur":951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":11, "ts":1672441657944888, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":11, "ts":1672441657944994, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1672441657944999, "dur":925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":11, "ts":1672441657945932, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":11, "ts":1672441657946026, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1672441657946030, "dur":878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":11, "ts":1672441657946915, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1672441657947017, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1672441657947020, "dur":860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1672441657947888, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":11, "ts":1672441657947983, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1672441657947988, "dur":990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":11, "ts":1672441657948987, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":11, "ts":1672441657949115, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1672441657949120, "dur":1052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":11, "ts":1672441657950181, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":11, "ts":1672441657950280, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1672441657950284, "dur":928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":11, "ts":1672441657951220, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":11, "ts":1672441657951316, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1672441657951320, "dur":1110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":11, "ts":1672441657952440, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":11, "ts":1672441657952450, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1672441657952454, "dur":124131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":11, "ts":1672441658076593, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1672441658076603, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1672441658076607, "dur":20624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1672441658097241, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":11, "ts":1672441658097253, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1672441658097258, "dur":7464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":11, "ts":1672441658104733, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":11, "ts":1672441658104744, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1672441658104749, "dur":133800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":11, "ts":1672441658238566, "dur":52830, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1672441657839073, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1672441657839074, "dur":882, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1672441657839961, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1672441657840203, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1672441657843539, "dur":2044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1672441657845592, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":12, "ts":1672441657845612, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1672441657845623, "dur":4556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":12, "ts":1672441657850219, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1672441657850305, "dur":17, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1672441657850334, "dur":1790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1672441657852151, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1672441657852179, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1672441657852188, "dur":2591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1672441657854797, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1672441657854814, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1672441657854820, "dur":2118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1672441657856977, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1672441657857024, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1672441657857037, "dur":54007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1672441657911055, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1672441657911066, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1672441657911071, "dur":996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1672441657912076, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1672441657912085, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1672441657912089, "dur":955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1672441657913052, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1672441657913062, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1672441657913065, "dur":1026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1672441657914100, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1672441657914111, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1672441657914115, "dur":1000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1672441657915123, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1672441657915132, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1672441657915136, "dur":971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1672441657916114, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1672441657916125, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1672441657916129, "dur":1278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1672441657917419, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1672441657917433, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1672441657917437, "dur":906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1672441657918351, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1672441657918364, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1672441657918368, "dur":942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1672441657919320, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1672441657919335, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1672441657919339, "dur":967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1672441657920315, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1672441657920324, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1672441657920328, "dur":13106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1672441657933443, "dur":17695, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":12, "ts":1672441657951141, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1672441657951145, "dur":1281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":12, "ts":1672441657952435, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1672441657952601, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1672441657952606, "dur":1094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1672441657953709, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1672441657953719, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1672441657953723, "dur":960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1672441657954744, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":12, "ts":1672441657954762, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1672441657954768, "dur":65480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":12, "ts":1672441658020261, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":12, "ts":1672441658020288, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1672441658020293, "dur":10507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":12, "ts":1672441658030809, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":12, "ts":1672441658030840, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1672441658030845, "dur":954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":12, "ts":1672441658031806, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":12, "ts":1672441658031815, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1672441658031819, "dur":48916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":12, "ts":1672441658080757, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":12, "ts":1672441658080768, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1672441658080774, "dur":96108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Projets/VroomVroom/PorteAvionSimulator/Vhicule_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":12, "ts":1672441658176892, "dur":114505, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672441658295380, "dur":1791, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1672441658334208, "dur": 841, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1672441658325198, "dur": 9901, "ph": "X", "name": "Write chrome-trace events", "args": {} },
